@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  body {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+    max-width: 1440px;
+    height: 100vh;
+    margin: auto;
+    background-image: url("img/bg-intro-desktop.png");
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(245, 118, 139);
+  }
+  .left {
+    width: 50%;
+    margin: auto;
+  }
+  .right{
+    width: 50%;
+    margin: auto;
+  }
+  .content-left {
+    margin-left: 50px;
+    padding: 50px;
+  }
+  .content-left h3{
+    color: white;
+    padding-right: 10px;
+    font-size: 25px;
+    width: 70%;
+    margin-bottom: 10px;
+  }
+  .content-left p{
+    color: white;
+    padding-right: 10px;
+    font-size: 16px;
+    line-height: 15px;
+    font-family: "Poppins", sans-serif;
+  }
+  .content-right {
+    margin-right: 50px;
+    padding: 50px;
+  }
+  .boxes {
+    background-color: whitesmoke;
+    border-radius: 10px;
+  }
+  .box-form {
+    padding: 5px 10px;
+    width: 100%;
+  }
+  input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+  }
+  .btn-bottom {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-size: 10px;
+    text-transform: uppercase;
+
+  }
+  .btn-top {
+    width: 100%;
+    padding: 6px 100px;
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  a{
+    color: red;
+  }
