@@ -1,87 +1,83 @@
 *{
-    padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
     text-decoration: none;
-  }
-  body {
+    box-sizing: border-box;
+}
+body {
     width: 100%;
-  }
-  .container {
+    background-image: url("img/bg-intro-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(0, 100%, 74%);
+}
+
+.container{
     width: 100%;
     max-width: 1440px;
     height: 100vh;
-    margin: auto;
-    background-image: url("img/bg-intro-desktop.png");
     display: flex;
-    justify-content: space-between;
-    background-color: rgb(245, 118, 139);
-  }
-  .left {
-    width: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.right{
     margin: auto;
-  }
-  .right{
-    width: 50%;
+}
+.left{
     margin: auto;
-  }
-  .content-left {
-    margin-left: 50px;
-    padding: 50px;
-  }
-  .content-left h3{
-    color: white;
-    padding-right: 10px;
-    font-size: 25px;
-    width: 70%;
-    margin-bottom: 10px;
-  }
-  .content-left p{
-    color: white;
-    padding-right: 10px;
+}
+h1{
+    color: whitesmoke;
+    margin: 0px 0px 15px 0px;
+
+}
+p{
+    color: whitesmoke;
     font-size: 16px;
-    line-height: 15px;
-    font-family: "Poppins", sans-serif;
-  }
-  .content-right {
-    margin-right: 50px;
-    padding: 50px;
-  }
-  .boxes {
-    background-color: whitesmoke;
-    border-radius: 10px;
-  }
-  .box-form {
-    padding: 5px 10px;
-    width: 100%;
-  }
-  input {
-    width: 100%;
-    margin: 10px 0;
+}
+.reg-boxes {
+    width: 400px;
+    max-width: 1440px;
+    background-color: white;
+    margin: 0 auto;
     padding: 10px;
+    border-radius: 10px;
+}
+.btn-top {
+    padding: 10px 10px;
+    width: 100%;
+    margin: 10px auto;
+    background-color: hsl(249, 10%, 26%);
+    color: whitesmoke;
     border-radius: 5px;
     border: 0;
-  }
-  .btn-bottom {
+}
+.btn-bottom {
+    padding: 10px 10px;
     width: 100%;
-    padding: 10px;
-    background-color: green;
-    color: white;
+    margin: 10px auto;
+    background-color: hsl(154, 59%, 51%);
+    color: whitesmoke;
     border-radius: 5px;
-    margin-bottom: 5px;
-    font-size: 10px;
-    text-transform: uppercase;
+    border: 0;
+}
+input {
+    padding: 8px;
+    width: 100%;
+    margin: 10px auto;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.bottom-p{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 12px;
+    color: hsl(246, 25%, 77%);
 
-  }
-  .btn-top {
-    width: 100%;
-    padding: 6px 100px;
-    background-color: hsl(248, 32%, 49%);
-    color: white;
-    border-radius: 5px;
-    margin-bottom: 10px;
-  }
-  
-  a{
-    color: red;
-  }
+}
+a{
+    color: hsl(0, 100%, 74%);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
