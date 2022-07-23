@@ -7,7 +7,7 @@
   }
   body{
     background-color: hsl(0, 100%, 74%);
-    background-image: url("bg-intro-desktop.png");
+    background-image: url("img/bg-intro-desktop.png");
     padding: 10%;
   }
   main {
@@ -80,4 +80,34 @@
     color:  hsl(0, 100%, 74%);
     
   }
+  @media screen and (max-width: 375px){
+    body {
+      background-image: url("img/bg-intro-mobile.png");
+      padding: 20px 5px;
+    }
+    main {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .container-text {
+      margin: 13% auto;
+    }
+    .container-text h2{
+      width: 110%;
+    }
+    .container-text p{
+      text-align: center;
+      width: 110%;
+      font-size: 16px;
+    }
+    .btn-top {
+      margin: 10px 0;
+      padding: 10px 50px; 
+    }
+    .agree-terms {
+      font-size: 11px;
+      text-align: center;
+    }
+  }
+  
   
